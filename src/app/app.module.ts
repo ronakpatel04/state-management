@@ -29,8 +29,8 @@ import { ProductsModule } from './products/products.module';
     MatInputModule,
     MatFormFieldModule,    
     ProductsModule,
-    StoreModule.forRoot({ root: productReducer }), // Configure your root reducer
-    EffectsModule.forRoot([ProductEffects]) // Configure your root effects
+    StoreModule.forRoot({ root: productReducer }), 
+    EffectsModule.forRoot([ProductEffects]) 
   ],
   providers: [
     provideAnimationsAsync()
